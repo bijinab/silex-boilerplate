@@ -1,0 +1,28 @@
+{
+    "name": "symfony/framework-standard-edition",
+    "license": "MIT",
+    "type": "project",
+    "description": "The \"Symfony Standard Edition\" distribution",
+    "autoload": {
+        "psr-0": {"Api\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-0": { "Tests\\": "tests/" }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "silex/silex": "1.1.2",
+        "igorw/config-service-provider": "1.2.1",
+        "mheap/Silex-Memcache": "1.*",
+        "doctrine/dbal": "~2.2"
+    },
+    "require-dev": {
+    },
+    "scripts": {},
+    "config": {
+        "platform": {
+            "php": "5.5.9"
+        }
+    },
+    "extra": {}
+}
